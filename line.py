@@ -4,7 +4,6 @@ def line():
     coefB = float(input("Ingrese el coeficiente B: "))
     coefX1 = float(input("Ingrese el coeficiente X1: "))
     coefX2 = float(input("Ingrese el coeficiente X2: "))
-    
     print(f"El coeficiente A de su ecuación de la recta es: {coefA}")
     print(f"El coeficiente B de su ecuación de la recta es: {coefB}")
     print(f"El coeficiente X1 de su ecuación de la recta es: {coefX1}")
@@ -18,7 +17,6 @@ def line():
     print("Dados los siguientes puntos:")
     print(f"\tP1 ({coefX1}, {Y1})")
     print(f"\tP2 ({coefX2}, {Y2})")
-
     dist = float(((coefX2 - coefX1) ** 2 + (Y2 - Y1) ** 2) ** 0.5)
     print("")
     print(f"La distancia entre ellos es: {dist}")
